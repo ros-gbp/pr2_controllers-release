@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-controllers
+Section: misc
+Priority: extra
+Maintainer: "Austin Hendrix <ahendrix@willowgarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/pr2_controllers
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-control-toolbox, ros-hydro-ethercat-trigger-controllers, ros-hydro-joint-trajectory-action, ros-hydro-pr2-calibration-controllers, ros-hydro-pr2-controllers-msgs, ros-hydro-pr2-gripper-action, ros-hydro-pr2-head-action, ros-hydro-pr2-mechanism-controllers, ros-hydro-robot-mechanism-controllers, ros-hydro-single-joint-position-action
+Description: Contains the controllers that run in realtime on the PR2 and supporting packages.
