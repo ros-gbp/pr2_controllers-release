@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-calibration-controllers
+Section: misc
+Priority: extra
+Maintainer: "Austin Hendrix <ahendrix@willowgarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-pluginlib, ros-hydro-pr2-controller-interface, ros-hydro-pr2-mechanism-controllers, ros-hydro-pr2-mechanism-model, ros-hydro-realtime-tools, ros-hydro-robot-mechanism-controllers, ros-hydro-roscpp, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/pr2_calibration_controllers
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-calibration-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-pluginlib, ros-hydro-pr2-controller-interface, ros-hydro-pr2-mechanism-controllers, ros-hydro-pr2-mechanism-model, ros-hydro-realtime-tools, ros-hydro-robot-mechanism-controllers, ros-hydro-roscpp, ros-hydro-std-msgs
+Description: The pr2_calibration_controllers package contains the controllers used to bring all the joints in the PR2 to a calibrated state.
