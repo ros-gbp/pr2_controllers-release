@@ -1,0 +1,12 @@
+Source: ros-hydro-joint-trajectory-action
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-pr2-controllers-msgs, ros-hydro-roscpp, ros-hydro-trajectory-msgs
+Homepage: http://ros.org/wiki/joint_trajectory_action
+Standards-Version: 3.9.2
+
+Package: ros-hydro-joint-trajectory-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-pr2-controllers-msgs, ros-hydro-roscpp, ros-hydro-trajectory-msgs
+Description: The joint_trajectory_action is a node that exposes an action interface to a joint trajectory controller.
