@@ -1,3 +1,32 @@
+## pr2_controllers (hydro) - 1.10.8-0
+
+User `hendrix@vash` released the packages in the `pr2_controllers` repository into the `hydro` distro by running `/usr/bin/bloom-release --rosdistro hydro --track hydro pr2_controllers` on `Thu, 27 Feb 2014 08:22:12 -0000`
+
+These packages were released:
+- `ethercat_trigger_controllers`
+- `joint_trajectory_action`
+- `pr2_calibration_controllers`
+- `pr2_controllers`
+- `pr2_controllers_msgs`
+- `pr2_gripper_action`
+- `pr2_head_action`
+- `pr2_mechanism_controllers`
+- `robot_mechanism_controllers`
+- `single_joint_position_action`
+
+Version of package(s) in repository `pr2_controllers`:
+- rosdistro version: `1.10.7-0`
+- old version: `1.10.7-0`
+- new version: `1.10.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.26`
+
+
 ## pr2_controllers - 1.10.7-0
 
 User `william@dosa` released the packages in the `pr2_controllers` repository by running `/usr/local/bin/bloom-release -r hydro -t hydro pr2_controllers` on `Sat, 07 Dec 2013 22:22:23 -0000`
